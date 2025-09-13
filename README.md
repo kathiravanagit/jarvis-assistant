@@ -41,14 +41,31 @@ With extensible Python modules, you can teach Jarvis new tricks anytime.
 ---
 
 ## 🚀 Features
-✅ Voice command recognition  
-✅ Text-to-speech responses  
-✅ Open applications and websites  
-✅ Search Google, Wikipedia, or YouTube  
-✅ Play local music files  
-✅ Tell the time/date  
-✅ Send emails (after setup)  
-✅ Easily extendable with new commands  
+
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Voice command recognition  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Text-to-speech responses  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Open applications and websites  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Search Google, Wikipedia, or YouTube  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Play local music files  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Tell the time/date  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Send emails (after setup)  
+</p>
+<p>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30" /> Easily extendable with new commands  
+</p>
 
 ---
 
