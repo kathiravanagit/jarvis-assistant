@@ -1,7 +1,7 @@
 <h1 align="center">🤖 Jarvis Assistant</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/IcZhFmufozDCij3p22/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/j5QcmXoFWl4Q0/giphy.gif" width="250" />
 </p>
 
 <p align="center">
@@ -11,7 +11,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" />
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
 ---
@@ -26,7 +25,6 @@
 - [Examples](#-examples)
 - [Troubleshooting](#-troubleshooting)
 - [Contributors](#-contributors)
-- [License](#-license)
 
 ---
 
@@ -37,7 +35,7 @@ It listens to your voice, understands commands, and performs tasks like searchin
 With extensible Python modules, you can teach Jarvis new tricks anytime.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="400" />
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="400" />
 </p>
 
 ---
