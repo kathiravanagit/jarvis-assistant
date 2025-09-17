@@ -79,3 +79,226 @@
     font-size: 15px;
     margin-right: 20px;
 }
+
+/* Settings Button */
+.settings-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 188, 212, 0.3);
+    border: 2px solid #00bcd4;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #00bcd4;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.settings-btn:hover {
+    background: rgba(0, 188, 212, 0.5);
+    transform: rotate(90deg);
+}
+
+/* Training Panel */
+.training-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.training-content {
+    background: #1a1a1a;
+    border: 2px solid #00bcd4;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.training-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.training-header h2 {
+    color: #00bcd4;
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #00bcd4;
+    font-size: 24px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background: rgba(0, 188, 212, 0.2);
+}
+
+/* Tabs */
+.training-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    color: #aed0d0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+    color: #00bcd4;
+    border-bottom-color: #00bcd4;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Form Elements */
+.add-command-section {
+    background: rgba(0, 188, 212, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.add-command-section h3,
+.commands-list h3,
+.preferences-section h3 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.add-command-section input,
+.preferences-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #aed0d0;
+}
+
+.add-command-section input:focus,
+.preferences-section input:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+.add-command-section button,
+.preferences-section button {
+    background: #00bcd4;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.add-command-section button:hover,
+.preferences-section button:hover {
+    background: #008ba3;
+}
+
+/* Commands List */
+.commands-actions {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.commands-actions button {
+    background: #00bcd4;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.commands-actions button:hover {
+    background: #008ba3;
+}
+
+.command-item {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #00bcd4;
+}
+
+.command-item .command-trigger {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+.command-item .command-details {
+    color: #aed0d0;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.command-item .delete-btn {
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+}
+
+.command-item .delete-btn:hover {
+    background: #cc0000;
+}
+
+/* Preferences */
+.preferences-section label {
+    color: #00bcd4;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.preferences-section input[type="range"] {
+    width: 100%;
+    margin-bottom: 15px;
+}

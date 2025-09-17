@@ -25,7 +25,62 @@
             <button class="talk"><i class="fas fa-microphone-alt"></i></button>
             <h1 class="content"> Click here to speak</h1>
         </div>
+        <button class="settings-btn" onclick="openTrainingPanel()">
+            <i class="fas fa-cog"></i>
+        </button>
     </section>
+
+    <!-- Training Panel -->
+    <div id="trainingPanel" class="training-panel">
+        <div class="training-content">
+            <div class="training-header">
+                <h2>🎓 Train JARVIS</h2>
+                <button class="close-btn" onclick="closeTrainingPanel()">&times;</button>
+            </div>
+            
+            <div class="training-tabs">
+                <button class="tab-btn active" onclick="switchTab('commands')">Custom Commands</button>
+                <button class="tab-btn" onclick="switchTab('preferences')">Preferences</button>
+            </div>
+
+            <div id="commandsTab" class="tab-content active">
+                <div class="add-command-section">
+                    <h3>Add New Command</h3>
+                    <input type="text" id="newTrigger" placeholder="Enter voice command (e.g., 'open spotify')" />
+                    <input type="text" id="newAction" placeholder="Enter action (e.g., 'https://spotify.com')" />
+                    <input type="text" id="newResponse" placeholder="Enter response (e.g., 'Opening Spotify...')" />
+                    <button onclick="addCustomCommand()">Add Command</button>
+                </div>
+                
+                <div class="commands-list">
+                    <h3>Learned Commands</h3>
+                    <div class="commands-actions">
+                        <button onclick="exportCommands()">Export Commands</button>
+                        <input type="file" id="importFile" accept=".json" onchange="importCommands(event)" style="display: none;" />
+                        <button onclick="document.getElementById('importFile').click()">Import Commands</button>
+                        <button onclick="clearAllCommands()" style="background: #ff4444;">Clear All</button>
+                    </div>
+                    <div id="customCommandsList"></div>
+                </div>
+            </div>
+
+            <div id="preferencesTab" class="tab-content">
+                <div class="preferences-section">
+                    <h3>Personalization</h3>
+                    <label>Your Name:</label>
+                    <input type="text" id="userName" placeholder="Enter your name" />
+                    
+                    <label>Voice Speed:</label>
+                    <input type="range" id="voiceRate" min="0.5" max="2" step="0.1" value="1" />
+                    
+                    <label>Voice Pitch:</label>
+                    <input type="range" id="voicePitch" min="0" max="2" step="0.1" value="1" />
+                    
+                    <button onclick="savePreferences()">Save Preferences</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 

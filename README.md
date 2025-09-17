@@ -35,6 +35,40 @@ With extensible Python modules, you can teach Jarvis new tricks anytime.
 ✅ Play local music files  
 ✅ Tell the time/date  
 ✅ Send emails (after setup)  
+✅ **NEW: Train JARVIS with custom voice commands**  
+✅ **NEW: Personalize voice speed, pitch, and name**  
+✅ **NEW: Export/Import training data**  
 ✅ Easily extendable with new commands  
+
+## 🎓 Training JARVIS
+
+JARVIS now includes a powerful training system that allows you to teach it new commands and personalize its behavior!
+
+### How to Access Training Mode
+1. Click the **settings gear icon** (⚙️) in the top-right corner
+2. Or say **"training"**, **"settings"**, or **"learn"** to JARVIS
+
+### Custom Commands
+- **Add New Commands**: Create custom voice triggers that open websites, applications, or perform actions
+- **Manage Commands**: View, edit, and delete your learned commands
+- **Export/Import**: Share your command sets or backup your training data
+
+### Personalization
+- **Your Name**: JARVIS will greet you by name
+- **Voice Speed**: Adjust how fast JARVIS speaks (0.5x to 2x speed)
+- **Voice Pitch**: Change the voice tone to your preference
+
+### Example Custom Commands
+```
+Voice Command: "open spotify"
+Action: https://spotify.com
+Response: "Opening Spotify for you!"
+
+Voice Command: "open github"  
+Action: https://github.com
+Response: "Opening GitHub for development work, sir!"
+```
+
+All your training data is automatically saved to your browser's local storage and persists between sessions.  
 
 ---
